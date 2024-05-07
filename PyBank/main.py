@@ -140,6 +140,6 @@ with open('Financial Analysis.txt', 'w') as f:
     f.write("\n----------------------------\n")
     f.write(f"\nTotal Months: {total_months}\n")
     f.write(f"\nTotal: ${total_profit_losses}\n")
-    f.write(f"\nAverage Change: ${average_change_formatted}\n")
+    f.write(f"\nAverage Change: {average_change_formatted}\n")
     f.write(f"\nGreatest Increase in Profits: {greatest_increase_date} (${greatest_increase})\n")
     f.write(f"\nGreatest Decrease in Profits: {greatest_decrease_date} (${greatest_decrease})")
